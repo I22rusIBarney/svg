@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>BobrGO Mark</title>
+  <defs>
+    <style>
+      .line{stroke:#2b2018;stroke-width:12;stroke-linecap:round;stroke-linejoin:round}
+      .outline{stroke:#2b2018;stroke-width:16;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+
+  <!-- beaver head only (same as logo) -->
+  <g transform="translate(0,6)">
+    <g>
+      <circle cx="148" cy="132" r="40" fill="#a5673f" class="outline"/>
+      <circle cx="364" cy="132" r="40" fill="#a5673f" class="outline"/>
+      <circle cx="148" cy="132" r="22" fill="#c68153" />
+      <circle cx="364" cy="132" r="22" fill="#c68153" />
+    </g>
+
+    <path d="M256 64c-84 0-152 64-152 148v20c0 96 76 160 152 160s152-64 152-160v-20C408 128 340 64 256 64z"
+          fill="#a5673f" class="outline"/>
+    <path d="M115 246c5 55 56 109 141 109 85 0 136-54 141-109"
+          fill="none" class="line"/>
+    <path d="M168 290c0 52 40 84 88 84s88-32 88-84c0-44-42-52-88-52s-88 8-88 52z"
+          fill="#7b4a2e" class="line"/>
+    <ellipse cx="256" cy="248" rx="30" ry="22" fill="#2b2018"/>
+    <path d="M196 300c18 22 52 30 60 30s42-8 60-30" fill="none" class="line"/>
+    <g>
+      <rect x="236" y="296" width="22" height="28" rx="4" fill="#ffffff" class="line"/>
+      <rect x="254" y="296" width="22" height="28" rx="4" fill="#ffffff" class="line"/>
+    </g>
+    <g>
+      <ellipse cx="214" cy="228" rx="10" ry="12" fill="#2b2018"/>
+      <ellipse cx="298" cy="228" rx="10" ry="12" fill="#2b2018"/>
+      <path d="M198 210c8-6 18-8 26-6" fill="none" class="line"/>
+      <path d="M318 210c-8-6-18-8-26-6" fill="none" class="line"/>
+    </g>
+    <path d="M244 354c8 2 16 2 24 0" fill="none" class="line"/>
+  </g>
+</svg>
